@@ -440,3 +440,28 @@
   }
 
 }
+
+@media (max-width: 768px) {
+
+  .navbar {
+    flex-direction: column;
+    padding: 15px;
+  }
+
+  .nav-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    width: 100%;
+  }
+
+  .nav-links a {
+    font-size: 13px;
+  }
+
+  .nav-icons {
+    margin-top: 10px;
+  }
+
+}
