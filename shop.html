@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shop | M Infinity Boutique</title>
+
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body>
+
+  <!-- NAVBAR -->
+  <header class="navbar">
+    <div class="logo">M INFINITY</div>
+
+    <nav class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="shop.html" class="active">Shop</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+
+   <div class="nav-icons">
+
+  <a href="cart.html" class="cart-link">
+    🛒
+    <span id="cart-count">0</span>
+  </a>
+
+</div>
+  </header>
+
+
+  <!-- SHOP HEADER -->
+  <section class="shop-header">
+    <h1>Our Collection</h1>
+    <p>Luxury pieces curated for elegance & confidence</p>
+  </section>
+
+  <div class="search-bar">
+    <input type="text" id="searchInput" placeholder="Search products...">
+  </div>
+
+  <!-- PRODUCT GRID -->
+  <section class="products">
+
+    <!-- PRODUCT 1 -->
+    <div class="product-card">
+  <img src="images/dress1.jpg" alt="Dress">
+  
+  <h3>Elegant Beige Dress</h3>
+  <p>R350</p>
+
+  <!-- SIZE SELECT -->
+  <select class="size-select">
+    <option value="">Select Size</option>
+    <option>XS</option>
+    <option>S</option>
+    <option>M</option>
+    <option>L</option>
+    <option>XL</option>
+    <option>2XL</option>
+    <option>3XL</option>
+    <option>4XL</option>
+    <option>5XL</option>
+    <option>6XL</option>
+  </select>
+
+  <!-- COLOR SELECT -->
+  <select class="color-select">
+    <option value="">Select Color</option>
+    <option>Beige</option>
+    <option>Black</option>
+    <option>White</option>
+    <option>Lavender</option>
+  </select>
+
+  <button onclick="addToCart('Elegant Beige Dress', 350, this)">
+    Add to Cart
+  </button>
+</div>
+
+    <!-- PRODUCT 2 -->
+    <div class="product-card">
+      <img src="images/dress2.jpg" alt="Dress">
+      <h3>Lavender Silk Dress</h3>
+      <p>R450</p>
+      <select class="size-select">
+        <option value="">Select Size</option>
+        <option>XS</option>
+        <option>S</option>
+        <option>M</option>
+        <option>L</option>
+        <option>XL</option>
+        <option>2XL</option>
+        <option>3XL</option>
+        <option>4XL</option>
+        <option>5XL</option>
+        <option>6XL</option>
+      </select>
+      <select class="color-select">
+        <option value="">Select Color</option>
+        <option>Beige</option>
+        <option>Black</option>
+        <option>White</option>
+        <option>Lavender</option>
+      </select>
+      <button onclick="addToCart('Lavender Silk Dress', 450, this)">Add to Cart</button>
+    </div>
+
+    <!-- PRODUCT 3 -->
+    <div class="product-card">
+      <img src="images/dress3.jpg" alt="Dress">
+      <h3>Classic Black Set</h3>
+      <p>R500</p>
+      <select class="size-select">
+        <option value="">Select Size</option>
+        <option>XS</option>
+        <option>S</option>
+        <option>M</option>
+        <option>L</option>
+        <option>XL</option>
+        <option>2XL</option>
+        <option>3XL</option>
+        <option>4XL</option>
+        <option>5XL</option>
+        <option>6XL</option>
+      </select>
+      <select class="color-select">
+        <option value="">Select Color</option>
+        <option>Beige</option>
+        <option>Black</option>
+        <option>White</option>
+        <option>Lavender</option>
+      </select>
+      <button onclick="addToCart('Classic Black Set', 500, this)">Add to Cart</button>
+    </div>
+
+  </section>
+
+
+  <script src="script.js"></script>
+
+<footer class="footer">
+
+  <div class="footer-container">
+
+    <!-- BRAND -->
+    <div class="footer-brand">
+      <h2>M INFINITY</h2>
+      <p>Luxury fashion. Soft elegance. Infinite style.</p>
+    </div>
+
+    <!-- LINKS -->
+    <div class="footer-links">
+      <a href="index.html">Home</a>
+      <a href="shop.html">Shop</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </div>
+
+    <!-- SOCIALS -->
+    <div class="footer-socials">
+
+      <a href="https://wa.me/27730997791" target="_blank">WhatsApp</a>
+      <a href="https://facebook.com/people/M-Infinity-Clothing/100071060531346/?locale=af_ZA#" target="_blank">Facebook</a>
+      <a href="https://linkedin.com/company/yourpage" target="_blank">LinkedIn</a>
+
+    </div>
+
+  </div>
+
+  <div class="footer-bottom">
+    <p>© 2026 M Infinity Clothing Boutique. All rights reserved.</p>
+  </div>
+
+</footer>
+</body>
+</html>
